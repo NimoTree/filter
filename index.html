@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<style type="text/css">
+		img{
+			width:100px;
+			height:200px;
+			display:block;
+			margin:0 auto;
+			transition:all 3s;
+		}
+		img:hover{
+			-webkit-filter: none;
+		}
+		.img1{
+			/* 灰度 */
+			-webkit-filter: grayscale(1);
+		}
+		.img2{
+			/* 亮度 */
+			-webkit-filter: brightness(1);
+		}
+		.img3{
+			/* 褐色 */
+			-webkit-filter: sepia(1);
+		}
+		.img4{
+			/* 模糊度
+			 hlur:单位像素
+			 */
+			-webkit-filter: blur(5px);
+		}
+		.img5{
+			/* 对比度 
+			正常就是1 0就是没有任何对比*/
+			-webkit-filter:contrast(0.5) ;
+		}
+		.img6{
+			/* saturate 饱和度 */
+			-webkit-filter: saturate(1);
+		}
+		.img7{
+			/* invert 胶片底色效果 */
+			-webkit-filter: invert(1);
+		}
+		.img8{
+			/* hue-rotate 色相旋转 */
+			-webkit-filter: hue-rotate(90deg);
+		}
+		.img9{
+			-webkit-filter: grayscale(20) blur(10px) brightness(20);
+		}
+		.img:hover{
+			-webkit-filter: grayscale(1) blur(1) brightness(1);
+		}
+		
+		
+	</style>
+	<body>
+		<img  class="img1" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img2" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img3" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img4" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img5" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img6" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img7" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img8" src="img/hejiong.jpg" alt="何炅西装">
+		<img  class="img9" src="img/hejiong.jpg" alt="何炅西装">
+		
+	</body>
+</html>
